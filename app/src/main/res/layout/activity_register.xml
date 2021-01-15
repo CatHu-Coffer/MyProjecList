@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff8222"
+    android:orientation="vertical"
+    tools:context="com.image.mymemorandum.login_register.RegisterActivity">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <EditText
+        android:id="@+id/register_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_small_height"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:hint="请输入用户名"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/register_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_small_height"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:hint="请输入密码"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/register_user_password2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_small_height"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:hint="请再次输入密码"
+        android:paddingLeft="5dp" />
+
+
+    <Button
+        android:id="@+id/register_ok"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_medium_height"
+        android:text="确认注册" />
+</LinearLayout>
